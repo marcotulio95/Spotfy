@@ -12,26 +12,30 @@ html,body, .capa{
 }
 
 body{
-	background: url('imagens/capa.png'),
-	url('imagens/ruido.png'),
-	linear-gradient(50deg,#ff4169,#7c26f8);
+	background: url(imagens/logo-branca.png),   url(imagens/ruido.png),   linear-gradient(180deg,#41ffe5,#f8f226);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
 	overflow-x: hidden;
 }
 /* -- Barra de Navegação */
 .img-logo{
-	height: 40px;
+	height: 70px;
 	width: 132px;
 	display: block;
-	background: url(imagens/spotify.svg) no-repeat;
+	background: url(imagens/logo-branca.png) no-repeat;
 	background-size: contain;
-	color: transparent;
 }
+.logo-centro{
+	height: 70px;
+	width: 132px;
+	display: block;
+	background: url(imagens/icone.png) no-repeat;
+	background-size: contain;
 
+}
 nav.navbar-transparente{
 	padding: 15px 0px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.64);
 	border: none;
 }
 
@@ -55,9 +59,20 @@ nav.navbar-transparente{
 }
 
 /* -- Imagem Capa do Site */
+.player{
+	padding-top: 250px;
+	padding-left: 150px;
+}
 .capa{
 	display: table;
 	width: 100%;
+}
+
+.page-facebook{
+	bottom: 0px;
+	padding-top: 150px;
+	padding-left: 50px;
+	float: left;
 }
 .texto-capa{
 	text-align: center;
@@ -128,12 +143,26 @@ footer{
 	padding: 50px 0px 20px 0px;
 	position: relative;
 }
+
 .item-rede-social{
 	float: right;
 }
 
 /*=============================== Tipografia ========================================*/
-
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:link, a:visited {
+	text-decoration: none
+}
+a:hover {
+	text-decoration: none; 
+	color: white;
+	}
+a:active {
+	text-decoration: none
+	}
 h1{
 	font-size: 100px;
 	font-weight: 900;
@@ -148,7 +177,7 @@ h2{
 }
 
 h3{
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 }
@@ -157,7 +186,6 @@ h3{
 	color: #919496;
 	font-size: 12px;
 	text-transform: uppercase;
-
 
 }
 
