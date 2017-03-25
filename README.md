@@ -1,2 +1,2 @@
-# Projeto apenas com fins didáticos, onde estarei fazendo um clone do site www.spotify.com/br.
-  Esse projeto foi desenvolvido, apenas para ampliação de conhecimentos em: BootStrap, HTML, CSS.
+# Esse projeto Ã© apenas um clone do site do [Spotfy](www.spotify.com/br).
+  (Desenvolvido apenas para fins didÃ¡ticos)
